@@ -25,6 +25,21 @@
 
   color: var(--text-on-dark-high);
 }
+
+/** Modifiers */
 .subtitle--center {
   text-align: center;
 }
+
+/* subtitles levels */
+.subtitle--lvl2 {
+  font-size: 64px;
+  line-height: 80px;
+  letter-spacing: 0.25px;
+
+  color: var(--secondary);
+}
+.subtitle--lvl2-title-lineheight {
+  line-height: 60px;
+}
+/* END subtitles levels */
