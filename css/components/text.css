@@ -39,7 +39,25 @@
 
   color: var(--secondary);
 }
+.subtitle--lvl2B {
+  font-size: 64px;
+  line-height: 80px;
+  letter-spacing: 0.25px;
+
+  color: var(--text-on-dark);
+}
 .subtitle--lvl2-title-lineheight {
   line-height: 60px;
 }
 /* END subtitles levels */
+
+/* Body text - paragraphs */
+.body-text {
+  font-family: var(--font);
+  font-weight: var(--weight-normal);
+  font-style: normal;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.5%;
+}
+/* END Body text - paragraphs */
