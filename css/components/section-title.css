@@ -46,3 +46,11 @@
 .section-title3__texts {
   margin: 16px 64px;
 }
+
+.section-title4 {
+  padding: 128px 171px;
+  background: var(--primary);
+
+  display: flex;
+  align-items: center;
+}
