@@ -1,0 +1,14 @@
+@import "global.css";
+
+@import "components/text.css";
+
+@import "components/title-subtitle.css";
+@import "components/section-title.css";
+@import "components/two-columns.css";
+@import "components/one-and-two.css";
+@import "components/image.css";
+@import "components/galery.css";
+@import "components/big-number.css";
+@import "components/quote.css";
+
+@import "page.css";

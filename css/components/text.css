@@ -1,0 +1,30 @@
+.title {
+  font-family: var(--font);
+  font-weight: var(--weight-bold);
+  font-style: normal;
+  font-size: 168px;
+  line-height: 144px;
+  text-transform: lowercase;
+  letter-spacing: -0.5px;
+
+  color: var(--text-on-dark);
+  word-wrap: break-word;
+}
+.title--100 {
+  width: 100%;
+}
+
+.subtitle {
+  font-family: var(--font);
+  font-weight: var(--weight-small);
+  font-style: normal;
+  font-size: 96px;
+  line-height: 96px;
+  text-transform: lowercase;
+  letter-spacing: -0.5px;
+
+  color: var(--text-on-dark-high);
+}
+.subtitle--center {
+  text-align: center;
+}
