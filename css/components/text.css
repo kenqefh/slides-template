@@ -22,6 +22,11 @@
 
   color: var(--text-on-dark-high);
 }
+.subtitle-border-bottom {
+  border-bottom: 1px solid var(--secondary);
+}
+
+/** Modifiers */
 .subtitle--vertical {
   position: absolute;
   width: 85vh;
@@ -32,12 +37,11 @@
   transform: rotate(270deg);
 }
 
-/** Modifiers */
+/* subtitles levels */
 .subtitle--center {
   text-align: center;
 }
 
-/* subtitles levels */
 .subtitle--lvl2 {
   font-size: 64px;
   line-height: 80px;
