@@ -47,6 +47,13 @@
     var(--light-background) 50%
   );
 }
+.slide--50_50-white_dark {
+  background: linear-gradient(
+    90deg,
+    var(--light-background) 50%,
+    var(--primary) 50%
+  );
+}
 /* END Modifiers */
 
 /* Elements */
@@ -79,7 +86,7 @@
 .slide__titles-double {
   display: grid;
   grid-template-rows: 7fr 6fr;
-  padding: 48px 64px;
+  padding: 0 64px;
 }
 .slide__titles-double-absolute {
   position: absolute;

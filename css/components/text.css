@@ -10,9 +10,6 @@
   color: var(--text-on-dark);
   word-wrap: break-word;
 }
-.title--100 {
-  width: 100%;
-}
 
 .subtitle {
   font-family: var(--font);
