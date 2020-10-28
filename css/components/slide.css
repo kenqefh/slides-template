@@ -12,6 +12,8 @@
 .slide * {
   border: 1px solid red;
 }
+
+/* Modifiers */
 .slide--60_40 {
   background: linear-gradient(
     90deg,
@@ -30,11 +32,21 @@
   align-items: center;
 }
 
+.slide--title-bottom {
+  grid-template-rows: 1fr 192px;
+  background-color: var(--light-background);
+}
+.slide__titles-bottom {
+  margin: 16px 64px;
+}
+/* END Modifiers */
+
 /* Elements */
 .slide__image-background {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  filter: var(--filter);
 }
 .slide__container-absolute {
   position: absolute;
