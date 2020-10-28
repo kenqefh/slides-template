@@ -54,6 +54,12 @@
     var(--primary) 50%
   );
 }
+
+.slide--two-columns {
+  background-color: var(--light-background);
+  grid-template-columns: 44.53% 44.53%;
+  justify-content: space-between;
+}
 /* END Modifiers */
 
 /* Elements */
@@ -104,4 +110,13 @@
   margin-left: 100px;
   margin-right: 64px;
   align-self: end;
+}
+
+.slide__title-text {
+  margin-top: 191px;
+  margin-left: 64px;
+}
+
+.slide__title-text-body {
+  margin-left: 64px;
 }
