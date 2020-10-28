@@ -9,9 +9,6 @@
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
 }
-.slide * {
-  border: 1px solid red;
-}
 
 /* Modifiers */
 .slide--align-bottom {
@@ -82,6 +79,15 @@
   grid-template-rows: 1fr 1fr;
   gap: 64px;
 }
+
+.slide--container-quote {
+  padding-left: 171px;
+  padding-right: 64px;
+  align-items: center;
+}
+.slide--container-quote-extra_margin {
+  margin-right: 96px;
+}
 /* END Modifiers */
 
 /* Elements */
@@ -92,7 +98,6 @@
   filter: var(--filter);
 }
 .slide__image-background--resize {
-  padding-top: 129px;
   padding-left: 107px;
   width: 80%;
   height: calc(100% - 85px);

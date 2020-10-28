@@ -13,7 +13,7 @@
 
 .subtitle {
   font-family: var(--font);
-  font-weight: var(--weight-small);
+  font-weight: var(--weight-semibold);
   font-style: normal;
   font-size: 96px;
   line-height: 96px;
@@ -38,25 +38,17 @@
 }
 
 /* subtitles levels */
-.subtitle--center {
-  text-align: center;
-}
 
 .subtitle--lvl2 {
+  font-weight: var(--weight-normal);
   font-size: 64px;
   line-height: 80px;
   letter-spacing: 0.25px;
 
   color: var(--secondary);
 }
-.subtitle--lvl2B {
-  font-size: 64px;
-  line-height: 80px;
-  letter-spacing: 0.25px;
 
-  color: var(--text-on-dark);
-}
-.subtitle--lvl2-title-lineheight {
+.subtitle--lvl2-compact {
   line-height: 60px;
 }
 /* END subtitles levels */
@@ -71,3 +63,20 @@
   letter-spacing: 0.5%;
 }
 /* END Body text - paragraphs */
+
+/* Text variants */
+.text--center {
+  text-align: center;
+}
+.text--right {
+  text-align: right;
+}
+.color--text-on-dark {
+  color: var(--text-on-dark);
+}
+.color--text-on-dark-high {
+  color: var(--text-on-dark-high);
+}
+.color--text-secondary {
+  color: var(--secondary);
+}
