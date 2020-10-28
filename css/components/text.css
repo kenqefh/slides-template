@@ -25,6 +25,15 @@
 
   color: var(--text-on-dark-high);
 }
+.subtitle--vertical {
+  position: absolute;
+  width: 85vh;
+  height: 0px;
+  bottom: 48px;
+  left: calc(60% + 68px);
+  transform-origin: 0 0;
+  transform: rotate(270deg);
+}
 
 /** Modifiers */
 .subtitle--center {

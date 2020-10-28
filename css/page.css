@@ -1,6 +1,6 @@
 .main > * {
-  width: 1024px;
-  height: 768px;
-  border: 1px solid red;
-  margin: 48px;
+  margin-bottom: 48px;
+}
+.main {
+  background-color: var(--background);
 }

@@ -1,6 +1,7 @@
 @import "global.css";
 
 @import "components/text.css";
+@import "components/slide.css";
 
 @import "components/title-subtitle.css";
 @import "components/section-title.css";

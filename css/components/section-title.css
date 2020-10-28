@@ -1,38 +1,3 @@
-.section-title1 {
-  background-color: var(--primary);
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.section-title1__title {
-  margin: 96px;
-}
-
-.section-title2 {
-  position: relative;
-}
-.section-title2__image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.section-title2__title {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  padding: 96px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  background: var(--background-linear);
-  box-shadow: var(--box-shadow);
-}
-
 .section-title3 {
   height: 100%;
   display: flex;
