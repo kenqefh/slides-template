@@ -6,140 +6,85 @@
     <title>Slides</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
+  <body class="body">
     <main class="main">
+      <!-- Control slides -->
+      <label for="range" class="range_slide__label"></label>
+      <input
+        autofocus
+        type="range"
+        name="range"
+        class="range_slide"
+        id="range"
+        min="0"
+        max="20"
+        step="1"
+        value="1"
+        onchange="showSlider()"
+      />
       <!-- Slide with title and subtitle -->
-      <div class="slide slide--60_40">
-        <h1 class="title slide--align-bottom">Presentation title</h1>
-        <p class="subtitle subtitle--vertical">
-          Lorem ipsum dolor sit, amet consectetur.
-        </p>
-      </div>
-      <!-- END Slide with title and subtitle -->
-
-      <!-- Section title -->
-      <!-- Section title 1 -->
-      <div class="slide slide--container-center">
-        <h2 class="subtitle text--center">Section title lorem25</h2>
-      </div>
-      <!-- END Section title 1 -->
-
-      <!-- Section title 2 -->
-      <div class="slide">
-        <img
-          class="slide__image-background"
-          src="images/image1.webp"
-          alt="Image"
-        />
-        <div class="slide__container-absolute">
-          <h2 class="subtitle text--center color--text-on-dark">
-            Section title lorem20
-          </h2>
+      <div class="slides">
+        <div class="slide slide--60_40">
+          <h1 class="title slide--align-bottom">Presentation title</h1>
+          <p class="subtitle subtitle--vertical">
+            Lorem ipsum dolor sit, amet consectetur.
+          </p>
         </div>
-      </div>
-      <!-- END Section title 2 -->
+        <!-- END Slide with title and subtitle -->
 
-      <!-- Section title 3 -->
-      <div class="slide slide--title-bottom">
-        <img
-          class="slide__image-background"
-          src="images/image-galery1.webp"
-          alt="Image"
-        />
-        <div class="slide__titles-bottom">
+        <!-- Section title -->
+        <!-- Section title 1 -->
+        <div class="slide slide--container-center">
+          <h2 class="subtitle text--center">Section title lorem25</h2>
+        </div>
+        <!-- END Section title 1 -->
+
+        <!-- Section title 2 -->
+        <div class="slide">
+          <img
+            class="slide__image-background"
+            src="images/image1.webp"
+            alt="Image"
+          />
+          <div class="slide__container-absolute">
+            <h2 class="subtitle text--center color--text-on-dark">
+              Section title lorem20
+            </h2>
+          </div>
+        </div>
+        <!-- END Section title 2 -->
+
+        <!-- Section title 3 -->
+        <div class="slide slide--title-bottom">
+          <img
+            class="slide__image-background"
+            src="images/image-galery1.webp"
+            alt="Image"
+          />
+          <div class="slide__titles-bottom">
+            <h3 class="subtitle">Section title</h3>
+            <h4 class="subtitle subtitle--lvl2 subtitle--lvl2-compact">
+              Subtitle Lorem ipsum dolor sit.
+            </h4>
+          </div>
+        </div>
+        <!-- END Section title 3 -->
+
+        <!-- Section title 4 -->
+        <div class="slide slide--container-center">
           <h3 class="subtitle">Section title</h3>
-          <h4 class="subtitle subtitle--lvl2 subtitle--lvl2-compact">
-            Subtitle Lorem ipsum dolor sit.
-          </h4>
         </div>
-      </div>
-      <!-- END Section title 3 -->
+        <!-- END Section title 4 -->
 
-      <!-- Section title 4 -->
-      <div class="slide slide--container-center">
-        <h3 class="subtitle">Section title</h3>
-      </div>
-      <!-- END Section title 4 -->
-
-      <!-- Section title 5 -->
-      <div class="slide slide--50_50 slide--50_50-dark_white">
-        <div class="slide__titles-double">
-          <h3 class="subtitle slide--align-bottom">Section title</h3>
-          <h4 class="subtitle subtitle--lvl2 color--text-on-dark">Subtitle</h4>
-        </div>
-        <p class="body-text slide__text-bottom">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-      </div>
-      <!-- END Section title 5 -->
-
-      <!-- Section title 6 -->
-      <div class="slide slide--50_50 slide--50_50-dark_white">
-        <img
-          class="slide__image-background"
-          src="images/image-galery1.webp"
-          alt="Image"
-        />
-        <div class="slide__titles-double slide__titles-double-absolute">
-          <h3 class="subtitle slide--align-bottom">Section title</h3>
-          <h4 class="subtitle subtitle--lvl2 color--text-on-dark">Subtitle</h4>
-        </div>
-        <p class="body-text slide__text-bottom">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-      </div>
-      <!-- END Section title 6 -->
-
-      <!-- Section title 7 -->
-      <div class="slide slide--50_50 slide--50_50-white_dark">
-        <div class="slide__titles-double">
-          <h3 class="subtitle slide--align-bottom">Section title Lorem</h3>
-          <h4 class="subtitle subtitle--lvl2">Subtitle more words here</h4>
-        </div>
-        <img
-          class="slide__image-background"
-          src="images/image-galery1.webp"
-          alt="Image"
-        />
-      </div>
-      <!-- END Section title 7 -->
-
-      <!-- Section title 8 -->
-      <div class="slide slide--50_50 slide--50_50-dark_white">
-        <img
-          class="slide__image-background"
-          src="images/image-galery1.webp"
-          alt="Image"
-        />
-        <div class="slide__titles-double">
-          <h3 class="subtitle slide--align-bottom">Section title Lorem</h3>
-          <h4 class="subtitle subtitle--lvl2 color--text-secondary">
-            Subtitle more words here
-          </h4>
-        </div>
-      </div>
-      <!-- END Section title 8 -->
-      <!-- END Section title -->
-
-      <!-- Slide with two columns -->
-      <div class="slide slide--two-columns">
-        <div class="slide__title-text">
-          <h4 class="subtitle subtitle--lvl2 color--text-secondary">
-            Headline
-          </h4>
-          <p class="body-text slide__title-text-body">
+        <!-- Section title 5 -->
+        <div class="slide slide--50_50 slide--50_50-dark_white">
+          <div class="slide__titles-double">
+            <h3 class="subtitle slide--align-bottom">Section title</h3>
+            <h4 class="subtitle subtitle--lvl2 color--text-on-dark">
+              Subtitle
+            </h4>
+          </div>
+          <p class="body-text slide__text-bottom">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -149,101 +94,194 @@
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </div>
-        <img
-          class="slide__image-background"
-          src="images/image-galery2.webp"
-          alt="Image"
-        />
-      </div>
-      <!-- END Slide with two columns -->
+        <!-- END Section title 5 -->
 
-      <!-- Slide One and Two -->
-      <div class="slide slide--one-and-two">
-        <h3 class="subtitle subtitle-border-bottom">Slide title</h3>
-        <img
-          class="slide__image-background slide__image-background--resize"
-          src="images/image-galery2.webp"
-          alt="Image"
-        />
-        <p class="body-text slide__text-absolute">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam.
-        </p>
-      </div>
-      <!-- END Slide One and Two -->
-
-      <!-- Slide with image -->
-      <div class="slide">
-        <img
-          class="slide__image-background"
-          src="images/image-galery10.webp"
-          alt="Image"
-        />
-      </div>
-      <!-- END Slide with image -->
-
-      <!-- Slide Galery -->
-      <!-- Slide Galery 1 -->
-      <div class="slide slide--two-images">
-        <img
-          class="slide__image-background"
-          src="images/image-galery10.webp"
-          alt="Image"
-        /><img
-          class="slide__image-background"
-          src="images/image-galery10.webp"
-          alt="Image"
-        />
-      </div>
-      <!-- END Slide Galery 1 -->
-
-      <!-- Slide Galery 2 -->
-      <div class="slide slide--three-images">
-        <img
-          class="slide__image-background slide__image-2r"
-          src="images/image-galery10.webp"
-          alt="Image"
-        /><img
-          class="slide__image-background"
-          src="images/image-galery10.webp"
-          alt="Image"
-        /><img
-          class="slide__image-background"
-          src="images/image-galery10.webp"
-          alt="Image"
-        />
-      </div>
-      <!-- END Slide Galery 2 -->
-      <!-- END Slide Galery -->
-
-      <!-- Slide with big number -->
-      <div class="slide slide--container-center">
-        <div>
-          <h1 class="title text--center">million</h1>
-          <h4
-            class="subtitle subtitle--lvl2 color--text-on-dark-high text--right"
-          >
-            downloads
-          </h4>
+        <!-- Section title 6 -->
+        <div class="slide slide--50_50 slide--50_50-dark_white">
+          <img
+            class="slide__image-background"
+            src="images/image-galery1.webp"
+            alt="Image"
+          />
+          <div class="slide__titles-double slide__titles-double-absolute">
+            <h3 class="subtitle slide--align-bottom">Section title</h3>
+            <h4 class="subtitle subtitle--lvl2 color--text-on-dark">
+              Subtitle
+            </h4>
+          </div>
+          <p class="body-text slide__text-bottom">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
         </div>
-      </div>
-      <!-- END Slide with big number -->
+        <!-- END Section title 6 -->
 
-      <!-- Slide with quote -->
-      <div class="slide slide--container-quote">
-        <div>
-          <h4
-            class="subtitle subtitle--lvl2 color--text-on-dark slide--container-quote-extra_margin"
-          >
-            “Look at situations from all angles, and you will become more open.”
-          </h4>
-          <h4 class="subtitle subtitle--lvl2 color--text-on-dark text--right">
-            — Dalai Lama
-          </h4>
+        <!-- Section title 7 -->
+        <div class="slide slide--50_50 slide--50_50-white_dark">
+          <div class="slide__titles-double">
+            <h3 class="subtitle slide--align-bottom">Section title Lorem</h3>
+            <h4 class="subtitle subtitle--lvl2">Subtitle more words here</h4>
+          </div>
+          <img
+            class="slide__image-background"
+            src="images/image-galery1.webp"
+            alt="Image"
+          />
         </div>
+        <!-- END Section title 7 -->
+
+        <!-- Section title 8 -->
+        <div class="slide slide--50_50 slide--50_50-dark_white">
+          <img
+            class="slide__image-background"
+            src="images/image-galery1.webp"
+            alt="Image"
+          />
+          <div class="slide__titles-double">
+            <h3 class="subtitle slide--align-bottom">Section title Lorem</h3>
+            <h4 class="subtitle subtitle--lvl2 color--text-secondary">
+              Subtitle more words here
+            </h4>
+          </div>
+        </div>
+        <!-- END Section title 8 -->
+        <!-- END Section title -->
+
+        <!-- Slide with two columns -->
+        <div class="slide slide--two-columns">
+          <div class="slide__title-text">
+            <h4 class="subtitle subtitle--lvl2 color--text-secondary">
+              Headline
+            </h4>
+            <p class="body-text slide__title-text-body">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+          <img
+            class="slide__image-background"
+            src="images/image-galery2.webp"
+            alt="Image"
+          />
+        </div>
+        <!-- END Slide with two columns -->
+
+        <!-- Slide One and Two -->
+        <div class="slide slide--one-and-two">
+          <h3 class="subtitle subtitle-border-bottom">Slide title</h3>
+          <img
+            class="slide__image-background slide__image-background--resize"
+            src="images/image-galery2.webp"
+            alt="Image"
+          />
+          <p class="body-text slide__text-absolute">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam.
+          </p>
+        </div>
+        <!-- END Slide One and Two -->
+
+        <!-- Slide with image -->
+        <div class="slide">
+          <img
+            class="slide__image-background"
+            src="images/image-galery10.webp"
+            alt="Image"
+          />
+        </div>
+        <!-- END Slide with image -->
+
+        <!-- Slide Galery -->
+        <!-- Slide Galery 1 -->
+        <div class="slide slide--two-images">
+          <img
+            class="slide__image-background"
+            src="images/image-galery10.webp"
+            alt="Image"
+          /><img
+            class="slide__image-background"
+            src="images/image-galery10.webp"
+            alt="Image"
+          />
+        </div>
+        <!-- END Slide Galery 1 -->
+
+        <!-- Slide Galery 2 -->
+        <div class="slide slide--three-images">
+          <img
+            class="slide__image-background slide__image-2r"
+            src="images/image-galery10.webp"
+            alt="Image"
+          /><img
+            class="slide__image-background"
+            src="images/image-galery10.webp"
+            alt="Image"
+          /><img
+            class="slide__image-background"
+            src="images/image-galery10.webp"
+            alt="Image"
+          />
+        </div>
+        <!-- END Slide Galery 2 -->
+        <!-- END Slide Galery -->
+
+        <!-- Slide with big number -->
+        <div class="slide slide--container-center">
+          <div>
+            <h1 class="title text--center">million</h1>
+            <h4
+              class="subtitle subtitle--lvl2 color--text-on-dark-high text--right"
+            >
+              downloads
+            </h4>
+          </div>
+        </div>
+        <!-- END Slide with big number -->
+
+        <!-- Slide with quote -->
+        <div class="slide slide--container-quote">
+          <div>
+            <h4
+              class="subtitle subtitle--lvl2 color--text-on-dark slide--container-quote-extra_margin"
+            >
+              “Look at situations from all angles, and you will become more
+              open.”
+            </h4>
+            <h4 class="subtitle subtitle--lvl2 color--text-on-dark text--right">
+              — Dalai Lama
+            </h4>
+          </div>
+        </div>
+        <!-- END Slide with quote -->
       </div>
-      <!-- END Slide with quote -->
     </main>
+    <script>
+      let sliderIndex = 1;
+
+      const showSlider = (_) => {
+        let slides = document.getElementsByClassName("slide");
+        let range = document.getElementById("range").value;
+        let length = slides.length;
+        for (let index = 0; index < length; index++) {
+          if (index == range) slides[range].style.opacity = "1";
+          else slides[index].style.opacity = "0";
+        }
+        if (range >= length + 2) {
+          document.getElementById("range").value = 0;
+          slides[0].style.opacity = "1";
+        } else if (range >= length) slides[length - 1].style.opacity = "1";
+      };
+    </script>
   </body>
 </html>
